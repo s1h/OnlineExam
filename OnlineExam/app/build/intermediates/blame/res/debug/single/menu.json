@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/opt/AndroidProjects/OnlineExam/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/opt/AndroidProjects/OnlineExam/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/opt/AndroidProjects/OnlineExam/app/build/intermediates/res/merged/debug/menu/menu_exam.xml",
+        "source": "/opt/AndroidProjects/OnlineExam/app/src/main/res/menu/menu_exam.xml"
+    }
+]
