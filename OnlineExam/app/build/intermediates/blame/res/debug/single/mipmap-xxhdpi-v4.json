@@ -2,5 +2,9 @@
     {
         "merged": "/opt/AndroidProjects/OnlineExam/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
         "source": "/opt/AndroidProjects/OnlineExam/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/opt/OnlineExam/OnlineExam/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/opt/OnlineExam/OnlineExam/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

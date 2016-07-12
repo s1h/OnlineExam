@@ -1,7 +1,7 @@
 package com.sunhang.onlineexam;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,14 +9,13 @@ import android.view.View;
 import android.widget.Button;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +25,7 @@ public class MainActivity extends ActionBarActivity {
         String DB_PATH = "/data/data/com.sunhang.onlineexam/databases/";
         String DB_NAME = "question.db";
 
-        if((new File(DB_PATH + DB_NAME).exists()) == false)
+        if(!(new File(DB_PATH + DB_NAME).exists()))
         {
             File dir = new File(DB_PATH);
             if (!dir.exists())

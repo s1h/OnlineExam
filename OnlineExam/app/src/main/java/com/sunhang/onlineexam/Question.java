@@ -1,7 +1,7 @@
 package com.sunhang.onlineexam;
 
 /**
- * Created by ��Ⱥ on 2015/5/27.
+ * Created by 孙航 on 2016/07/11
  */
 public class Question {
     public String question;
@@ -12,6 +12,6 @@ public class Question {
     public int answer;
     public String explaination;
     public int ID;
-
+    public int MultiSelect;
     public int selectedAnswer;
 }

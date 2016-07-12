@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by on 2015/5/27
+ * Created by 孙航 on 2016/07/11
  */
 public class DBService {
     private SQLiteDatabase db;
@@ -20,7 +20,7 @@ public class DBService {
 
     public List<Question> getQuestions()
     {
-        List<Question> list = new ArrayList<Question>();
+        List<Question> list = new ArrayList<>();
         Cursor cursor = db.rawQuery("select * from question", null);
         if(cursor.getCount() > 0)
         {
@@ -38,6 +38,8 @@ public class DBService {
                 question.answer = cursor.getInt(cursor.getColumnIndex("answer"));
                 question.ID = cursor.getInt(cursor.getColumnIndex("ID"));
                 question.explaination = cursor.getString(cursor.getColumnIndex("explaination"));
+                question.MultiSelect = cursor.getInt(cursor.getColumnIndex("MultiSelect"));
+
                 question.selectedAnswer = -1;
                 list.add(question);
             }

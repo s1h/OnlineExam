@@ -4,7 +4,7 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="23984516791067"
+    timestamp="4877931903507"
     token="3305860100005140047" >
 
     <task
@@ -21,9 +21,19 @@
         duration="0" />
 
     <artifact
-        location="/opt/AndroidProjects/OnlineExam/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/opt/OnlineExam/OnlineExam/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
 
+    <build timestamp="4800388865041" >
+        <artifact
+            location="/opt/OnlineExam/OnlineExam/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="4877931903507" >
+        <artifact
+            location="/opt/OnlineExam/OnlineExam/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
     <build timestamp="23984516791067" >
         <artifact
             location="/opt/AndroidProjects/OnlineExam/app/build/outputs/apk/app-debug.apk"

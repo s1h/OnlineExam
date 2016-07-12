@@ -1,2 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/opt/OnlineExam/OnlineExam/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_34abf995a6c8c9b3db863749c50e6ae6c1ca3b55/classes.dex" />
+    </item>
+    <item
+        jar="/opt/OnlineExam/OnlineExam/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="592b265e2a2551f10359db95ec09c663ef3a5aa8">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b74072907d1416e743060c052470a7306a07d4aa/classes.dex" />
+    </item>
+    <item
+        jar="/home/sh/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_619e52b263505ef6cd2a047adcdb9dfa980ac707/classes.dex" />
+    </item>
+    <item
+        jar="/opt/OnlineExam/OnlineExam/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_78a037716df92dc3336bd64d624781204ace1c55/classes.dex" />
+    </item>
+    <item
+        jar="/opt/OnlineExam/OnlineExam/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="549812cca90bc34f95fc3a6f93a369d493468e4e">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_518619482b524c766c710bd9bdd4af9620c27cc1/classes.dex" />
+    </item>
+    <item
+        jar="/opt/OnlineExam/OnlineExam/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_59f2ee2342a5c05f6e2340e2402f364e7d86ad47/classes.dex" />
+    </item>
+    <item
+        jar="/opt/OnlineExam/OnlineExam/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_52bcbecdc124290fe1705f34378738df41fc4166/classes.dex" />
+    </item>
+    <item
+        jar="/opt/OnlineExam/OnlineExam/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/opt/OnlineExam/OnlineExam/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_5a85d6904514c7f63da9511e005a61977930cec3/classes.dex" />
+    </item>
+
+</items>

@@ -181,6 +181,11 @@ public class ExamActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * 给错误的题一个标识
+     * @param list
+     * @return
+     */
     private List<Integer> checkAnswer(List<Question> list)
     {
         List<Integer> wrongList = new ArrayList<>();
