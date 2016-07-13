@@ -53,8 +53,8 @@
 
             <TextView
                 android:visibility="invisible"
-                android:id="@+id/explaination"
-                android:text="Question Explaination"
+                android:id="@+id/explanation"
+                android:text="Question explanation"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

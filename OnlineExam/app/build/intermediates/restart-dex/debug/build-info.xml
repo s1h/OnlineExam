@@ -4,39 +4,29 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="4877931903507"
-    token="3305860100005140047" >
+    timestamp="32754505791204"
+    token="2865305071370062510" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="99" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="39" />
     <task
         name="verifier"
-        duration="0" />
+        duration="3" />
 
     <artifact
-        location="/opt/OnlineExam/OnlineExam/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
+        location="/opt/OnlineExam/OnlineExam/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="4800388865041" >
+    <build timestamp="32754505791204" >
         <artifact
             location="/opt/OnlineExam/OnlineExam/app/build/outputs/apk/app-debug.apk"
-            type="MAIN" />
-    </build>
-    <build timestamp="4877931903507" >
-        <artifact
-            location="/opt/OnlineExam/OnlineExam/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="23984516791067" >
-        <artifact
-            location="/opt/AndroidProjects/OnlineExam/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
 

@@ -10,7 +10,7 @@ public class Question {
     public String answerC;
     public String answerD;
     public int answer;
-    public String explaination;
+    public String explanation;
     public int ID;
     public int MultiSelect;
     public int selectedAnswer;

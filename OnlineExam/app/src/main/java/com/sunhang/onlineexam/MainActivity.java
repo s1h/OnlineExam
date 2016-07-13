@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -21,13 +20,14 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         String DB_PATH = "/data/data/com.sunhang.onlineexam/databases/";
         String DB_NAME = "question.db";
 
+        //如果数据库文件不存在
         if(!(new File(DB_PATH + DB_NAME).exists()))
         {
             File dir = new File(DB_PATH);
+            //如果路径不存在
             if (!dir.exists())
             {
                 dir.mkdir();
@@ -51,18 +51,22 @@ public class MainActivity extends Activity {
                 e.printStackTrace();
             }
         }
-
-        Button btn = (Button)findViewById(R.id.button);
-        btn.setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_multi).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, ExamActivity.class);
+                intent.putExtra("MultiSelect", "multiSelect");
                 startActivity(intent);
             }
         });
-
-
-
+        findViewById(R.id.btn_single).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ExamActivity.class);
+                intent.putExtra("MultiSelect", "singleSelect");
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

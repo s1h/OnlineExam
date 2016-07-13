@@ -4,4 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_exam">ExamActivity</string>
+    <string name="SingleSelect">单选题</string>
+    <string name="MultiSelect">多选题</string>
 </resources>

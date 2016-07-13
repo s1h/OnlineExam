@@ -9,9 +9,17 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="答题"
-        android:id="@+id/button"
+        android:text="@string/SingleSelect"
+        android:id="@+id/btn_single"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="64dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MultiSelect"
+        android:id="@+id/btn_multi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp" />
 </RelativeLayout>
